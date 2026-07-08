@@ -1,15 +1,14 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.6.15",
+  "latest": "2.6.16",
   "updates": [
     {
-      "version": "2.6.15",
+      "version": "2.6.16",
       "type": "free",
-      "title": "Big catch-up update: court matters, Bill of Costs, redesigned documents & more",
-      "notes": "LegalBill Mobile now matches the desktop app. New since your version: court matters (High Court / Magistrate / Miscellaneous) with automatic firm references and a searchable South African court picker; a full Bill of Costs with taxation and Allocatur certificate; fee notes grouped by matter with matter-level payments and receipts; redesigned professional fee notes, receipts, quotes and statements; trust and VAT reporting improvements; a cleaner sign-in screen with the Canaan AI signature; and many stability and sync fixes. Your data is safe and continues to sync as before. Tap Install update to download the new app, then open the downloaded file to install over your current version.",
-      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.15/LegalBill.apk",
-      "releaseDate": "2026-07-08",
-      "minTier": "bsc"
+      "title": "Critical fix: sign-in restored (“No Supabase cloud SDK”)",
+      "notes": "This fixes a packaging problem in v2.6.15 that stopped the app from signing in on some devices, showing “No Supabase cloud SDK” or “Database not configured.” The cloud and database libraries are now bundled correctly. Your data was never affected — it stayed safe in your firm’s Supabase cloud the whole time. Includes everything from the v2.6.15 catch-up update (court matters, Bill of Costs, redesigned documents, and more). Tap Install update, then open the downloaded file to install over your current version and sign in as normal.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.16/LegalBill.apk",
+      "releaseDate": "2026-07-08"
     }
   ]
 }
