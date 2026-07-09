@@ -1,13 +1,13 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.6.18",
+  "latest": "2.6.17",
   "updates": [
     {
-      "version": "2.6.18",
+      "version": "2.6.17",
       "type": "free",
-      "title": "Stay logged in across updates (fixes “Cloud not configured”)",
-      "notes": "This fixes the real reason the app kept logging you out after an update. Your firm's cloud database connection is now built into the app itself, so installing an update can no longer erase it — the app stays connected and you simply sign in with your email and password. (Before, the connection lived only in the phone's local storage, which each install cleared, causing 'Cloud not configured. Open via LegalBill.exe'.) Your data was always safe in the cloud. Tap Install update, then open the downloaded file to install over your current version.",
-      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.18/LegalBill.apk",
+      "title": "Update banner now shows on the sign-in screen",
+      "notes": "The 'Install update' banner now appears on the login screen too, not only after you sign in — so if a device ever can't sign in, it can still receive a newer or fixed build in-app instead of installing it by hand. Also includes the v2.6.16 mobile UI polish: the bottom tab bar scrolls smoothly instead of cramming every tab into one row, and the Canaan AI signature on the sign-in screen is smaller so it no longer overshadows the login form. No data or feature changes. Tap Install update, then open the downloaded file to install over your current version.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.17/LegalBill.apk",
       "releaseDate": "2026-07-09"
     }
   ]
