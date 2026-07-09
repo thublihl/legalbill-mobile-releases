@@ -1,13 +1,13 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.6.17",
+  "latest": "2.6.18",
   "updates": [
     {
-      "version": "2.6.17",
+      "version": "2.6.18",
       "type": "free",
-      "title": "Update banner now shows on the sign-in screen",
-      "notes": "The 'Install update' banner now appears on the login screen too, not only after you sign in — so if a device ever can't sign in, it can still receive a newer or fixed build in-app instead of installing it by hand. Also includes the v2.6.16 mobile UI polish: the bottom tab bar scrolls smoothly instead of cramming every tab into one row, and the Canaan AI signature on the sign-in screen is smaller so it no longer overshadows the login form. No data or feature changes. Tap Install update, then open the downloaded file to install over your current version.",
-      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.17/LegalBill.apk",
+      "title": "Fixes “Supabase cloud SDK could not be loaded” sign-in error",
+      "notes": "If the bundled Supabase library fails to load on a device (which was blocking sign-in on some phones with 'Supabase cloud SDK: could not be loaded'), the app now automatically fetches it from the internet so you can sign in. Also refreshes the bundled library to the official 2.108.2 build and, if it ever still fails, shows the exact error instead of a generic message. No data or feature changes. Tap Install update, then open the downloaded file to install over your current version.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.6.18/LegalBill.apk",
       "releaseDate": "2026-07-09"
     }
   ]
