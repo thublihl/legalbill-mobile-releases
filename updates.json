@@ -1,7 +1,16 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.12.5",
+  "latest": "2.12.6",
   "updates": [
+    {
+      "version": "2.12.6",
+      "type": "free",
+      "title": "A true mobile app feel",
+      "notes": "LegalBill Mobile now looks and works like a native phone app: a clean 5-button bottom bar (Home, Clients, Matters, Fee notes and More) replaces the long scrolling tab strip - everything else lives in a tidy More sheet. Forms slide up as full-width sheets with a drag handle, buttons and inputs are bigger and easier to tap, and the app bar stays neatly at the top as you scroll.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.12.6/LegalBill.apk",
+      "releaseDate": "2026-07-13",
+      "minTier": "free"
+    },
     {
       "version": "2.12.5",
       "type": "free",
