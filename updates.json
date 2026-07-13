@@ -1,7 +1,16 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.6.18",
+  "latest": "2.12.5",
   "updates": [
+    {
+      "version": "2.12.5",
+      "type": "free",
+      "title": "Mobile catches up to desktop - licensing, two offices, tax module",
+      "notes": "LegalBill Mobile now matches the desktop app: server-verified licence and 7-day free trial, separate Attorneys and Advocates offices, the SA tax & compliance module (VAT, IRP6, compliance calendar), searchable court pickers, counsel billing, collapsible sections and the premium document designs. Update from inside the app or download the new APK.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.12.5/LegalBill.apk",
+      "releaseDate": "2026-07-13",
+      "minTier": "free"
+    },
     {
       "version": "2.6.18",
       "type": "free",
