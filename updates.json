@@ -1,7 +1,16 @@
 {
   "channel": "stable-mobile",
-  "latest": "2.12.6",
+  "latest": "2.12.7",
   "updates": [
+    {
+      "version": "2.12.7",
+      "type": "free",
+      "title": "iPhone setup fix",
+      "notes": "Fixes two incorrect red warnings (App runtime and Internet connection) that could appear during setup on iPhone and iPad. These were false alarms - the app runs fine on Safari - and the setup screen now shows all checks green.",
+      "url": "https://github.com/thublihl/legalbill-mobile-releases/releases/download/v2.12.7/LegalBill.apk",
+      "releaseDate": "2026-07-13",
+      "minTier": "free"
+    },
     {
       "version": "2.12.6",
       "type": "free",
